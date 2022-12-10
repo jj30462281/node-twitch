@@ -479,7 +479,7 @@ export class TwitchApi extends EventEmitter{
 		query += "&";
 		query += parseOptions(options);
 		const response = await this._get<APIStreamResponse>(endpoint + query);
-		response.data.map(addThumbnailMethod);
+		response.data = response.data ? response.data.map(addThumbnailMethod) : response.data;
 		return response;
 	}
 
