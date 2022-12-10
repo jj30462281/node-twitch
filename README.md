@@ -11,12 +11,12 @@ The package is available through NPM, which means you can choose to install it u
 
 NPM:
 ```sh
-npm install node-twitch
+npm install jj30462281/node-twitch
 ```
 
 Yarn:
 ```sh
-yarn add node-twitch
+yarn add jj30462281/node-twitch
 ```
 
 ## Usage
